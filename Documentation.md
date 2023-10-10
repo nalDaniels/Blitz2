@@ -9,6 +9,8 @@ Due to a spike in demand, the URL Shortener now needs to be able to handle a min
  # Testing:
 
 To ensure that the application is able to manage increased traffic, the QA engineer sent 14,000 requests to the server. Unfortunately, the server was overloaded resulting in 3 users not being able to access the application. 
+<img width="1199" alt="Screen Shot 2023-10-09 at 8 09 21 PM" src="https://github.com/nalDaniels/Blitz2/assets/135375665/5b78449d-004e-4727-b41b-93bed3ae494d">
+
 
 3 people may seem insignificant, but it is important to ensure our application is available to all users. Otherwise, we face losing more users and business. Luckily, this is the test environment, so we are able to fix things before it goes to production. 
 
@@ -34,8 +36,4 @@ However, it is important to note that increasing the size of the server still cr
 5. Rerun Jenkins build
 6. Reinstall CloudWatch
 
-1. Go to EC2 > Elastic Block Store > Volumes
-2. Detach the volume associated with my in-use EC2
-3. Create new EC2 called blitz2
-4. Attach volume to blitz2 EC2 as root volume or /dev/sda1
-5. Rerun Jenkins build
+
