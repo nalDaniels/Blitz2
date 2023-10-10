@@ -36,4 +36,7 @@ However, it is important to note that increasing the size of the server still cr
 5. Rerun Jenkins build
 6. Reinstall CloudWatch
 
+# Issues
+The entire volume didn't copy over to the new EC2. I assume this is because CloudWatch is an AWS service rather than a package or service downloaded onto the EC2.
+I resolved it by reinstalling CloudWatch.
 
