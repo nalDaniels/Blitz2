@@ -8,7 +8,9 @@ Due to a spike in demand, the URL Shortener now needs to be able to handle a min
 
  # Testing:
 
-To ensure that the application is able to manage increased traffic, the QA engineer sent 14,000 requests to the server. Unfortunately, the server was overloaded resulting in 3 users not being able to access the application. 
+To ensure that the application is able to manage increased traffic, the QA engineer sent 14,000 requests to the server. Unfortunately, the server was overloaded resulting in 3 users not being able to access the application.
+
+Here you can see the CPU alarm was set off by the CPU usage reaching almost 100%.
 <img width="1199" alt="Screen Shot 2023-10-09 at 8 09 21 PM" src="https://github.com/nalDaniels/Blitz2/assets/135375665/5b78449d-004e-4727-b41b-93bed3ae494d">
 
 
